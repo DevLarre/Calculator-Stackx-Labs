@@ -1,0 +1,24 @@
+Projeto Calculadora Stackx 2023.
+
+Com o intuito de facilitar e melhorar o uso no dia-a-dia, desenvolvi a calculadora Black Light.
+
+Queria trazer alguns conceitos básicos mais funcionais.
+
+Por ser meu primeiro projeto sozinho não desenvolvi todos os códigos, usei muitos foruns e sites para implementar os códigos que aqui veremos a funcionar.
+
+Na parte de conteudo do HTML, implementei todos os botões e algumas funcionalidades básicas para funcionamento.
+Um exemplo é a <div class="container">, dentro dela eu aloquei os botões e suas funções para calculadora, de forma simples.
+Achei interessante ter um botão de limpar o histórico e copiar tudo que foi feito de operações, seguindo essa lógica implementei um de exportar todo histórico em .CSV para o excel.
+
+Com uma simples função minha calculadora já funcionaria, apenas digitando no JavaScript esse código que deixarei abaixo.
+function displaynum(n1) {
+    Calculator.text1.value = Calculator.text1.value + n1;
+}
+
+Porém eu vi a necessidade de implementar mais funções, implementar histórico de operações, botões do teclado para facilitar a interface do usuário, entre outras funcionalidades.
+Dando seguimento na parte de criação eu configurei o botão dark e light, foi um pouco dificil a criação dele por não saber muito bem a ordem cronologica de seguimento, depois de algumas horas deu certo e ficou muito funcional.
+
+Ainda em JS. desenvolvi algumas funções que podem ser imperceptiveis, como a de copiar e retornar o nome depois de 2 segundos, quando copiar ele aparece copiado e depois ele retorna para copiar,
+funções do teclado também como somar dividir, resultado facilitando assim o uso final do usuário. 
+
+Por fim o CSS, implementei um pouco de conhecimento adquirido aqui no curso da Stackx e de outros locais onde estudo, tentei amenizar as cores com um contraste um pouco diferente de preto e cinza e branco e azul ciano.
